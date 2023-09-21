@@ -9,7 +9,7 @@ const AddEmployee = () => {
 		email: '',
 		password: '',
 		address: '',
-		// salary: '',
+		salary: '',
 		image: ''
 	})
 
@@ -25,8 +25,8 @@ const AddEmployee = () => {
 		formdata.append("image", data.image);
 		axios.post('http://localhost:8081/create', formdata)
 		.then(res => 
-			// navigate('/employee')
-            console.log(res)
+			navigate('/employee')
+            // console.log(res)
 		)
 		.catch(err => console.log(err));
 	}
@@ -55,12 +55,12 @@ const AddEmployee = () => {
 					 onChange={e => setData({...data, password: e.target.value})}
                      />
 				</div>
-				{/* <div className="col-12">
+				<div className="col-12">
 					<label for="inputSalary" className="form-label">Salary</label>
 					<input type="text" className="form-control" id="inputSalary" placeholder="Enter Salary" autoComplete='off'
 					onChange={e => setData({...data, salary: e.target.value})}
                     />
-				</div> */}
+				</div>
 				<div className="col-12">
 					<label for="inputAddress" className="form-label">Address</label>
 					<input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" autoComplete='off'
