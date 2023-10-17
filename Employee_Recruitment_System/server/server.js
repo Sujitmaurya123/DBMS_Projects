@@ -1,5 +1,5 @@
 import  express  from "express";
-import mysql from 'mysql'
+import mysql from 'mysql2'
 import cors from 'cors'
 import cookieParser from "cookie-parser";
 import bcrypt from 'bcrypt'
@@ -24,7 +24,7 @@ app.use(express.static('public'));
 const con=mysql.createConnection({
     host:"localhost",
     user:"root",
-    password:"",
+    password:"Suj@$12*",
     database:"singup",
 })
 
@@ -43,7 +43,7 @@ const upload = multer({
 
 con.connect(function (err) {
     if (err) {
-        console.log("Error in Connection");
+        console.log("Error in Connection",err.message);
     } else {
         console.log("Connected");
     }
