@@ -17,7 +17,11 @@ Full Stack Project with MySQL
 
 6. Step![Screenshot 2023-10-17 224458](https://github.com/Sujitmaurya123/DBMS_Projects/assets/113910576/70ff636a-d8e4-4aa5-a6b1-6c9440ecbf1a)
 
-7. step
+7. Step  
+
+![Screenshot 2023-10-17 224553](https://github.com/Sujitmaurya123/DBMS_Projects/assets/113910576/adfdb540-e014-40c3-b9ce-a4a06c437f1c)
+
+8. step
 
 ![Screenshot 2023-10-19 235947](https://github.com/Sujitmaurya123/DBMS_Projects/assets/113910576/74274304-e9d1-4bf2-8f84-64e5e8f7ef6b)
 
